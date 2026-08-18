@@ -1,0 +1,9 @@
+[project]
+name = "kyros"
+version = "0.1.0"
+description = "Cost-aware AI task router and crash-safe shared-GPU mutex."
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
